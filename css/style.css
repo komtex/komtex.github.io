@@ -1,0 +1,152 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+i
+nav {
+	margin-bottom: 1.0rem;
+}
+.nav-link:hover {
+	color: #5f5c9f !important;
+}
+ ul {
+  margin: 0;
+  padding: 0;
+}
+ nav {
+    color: #e6dddd;
+    position: relative;
+    margin: 2rem;
+    top: 1rem;
+    background: #ebd4d4;
+    padding: 0.5rem;
+  }
+  
+  span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Lobster';
+    color: #c25100;
+  }
+  
+  nav a {
+    color: #e6dddd;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
+    
+  }
+
+    @media (min-width: 992px) {      
+        nav a {
+          position: relative;         
+          left: 400px;
+          top: 0.1rem;
+          
+          padding: 0;
+        }      
+    }
+    
+
+  form {
+    display: block;
+    margin-top: 0em;
+}
+    .text_input input[type="text"] {
+      background: #fff; 
+      display: flex;
+      border: 1px solid grey;
+      box-shadow: none;
+      border-radius: 24px !important;
+      z-index: 3;
+      height: 48px !important;
+      margin: 10% auto;
+      width: 100%;
+      max-width: 584px;
+      position: relative;
+      padding-inline-end: 44px;
+      padding-inline-start: 52px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+  }
+
+  .text_input input[type="text"]:hover {
+     border: 4px solid lightgray;    
+}
+
+.search_box input[type="submit"]:hover {
+   border: 2px solid lightgray;    
+}
+
+.lucky input[type="submit"]:hover {
+  border: 2px solid lightgray;    
+}
+
+.search_box input[type="submit"] {
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: medium;
+  font-style: normal;  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-110%);  
+  padding:5px 3px;
+  border-radius: 5px;
+}
+
+.lucky input[type="submit"]{
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;  
+  position: absolute;
+  left: 50%;
+  transform: translateX(20%);  
+  padding: 5px 3px;
+  border-radius: 5px;
+  
+}
+.field input[type="text"] {
+margin-left: 3px;
+width: 50%;
+position: relative;
+font-family: inherit;
+}
+
+label {
+  position: relative;
+  width: 200px;
+  margin: 2px;
+  padding: 5px;
+}
+
+ main {
+   flex: 1 0 auto;
+ }     
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+  footer {
+	display: block;
+	color: #c69ce2;;
+	background: #ebd6d6;
+	border-top: 1px solid black;
+	border-bottom: 2px solid #062838;
+  padding-top: 1em;
+  margin: 0.3em;
+  height: 80px;
+  flex: 0 0 auto;
+}
